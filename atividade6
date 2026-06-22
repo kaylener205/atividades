@@ -1,0 +1,16 @@
+Prática 01 – Imprimir os números de 1 a 100
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+Prática 02 – Somar os N primeiros números pares
+let N = parseInt(prompt("Digite a quantidade de números pares:"));
+
+let soma = 0;
+let numeroPar = 2;
+
+for (let i = 1; i <= N; i++) {
+    soma += numeroPar;
+    numeroPar += 2;
+}
+
+alert("A soma dos " + N + " primeiros números pares é: " + soma);
