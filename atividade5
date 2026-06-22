@@ -1,0 +1,27 @@
+let P = parseInt(prompt("Digite o valor de P:"));
+let A = parseFloat(prompt("Digite o valor de A:"));
+let B = parseFloat(prompt("Digite o valor de B:"));
+let C = parseFloat(prompt("Digite o valor de C:"));
+
+if (P === 1) {
+    // Média aritmética
+    let media = (A + B + C) / 3;
+    alert("A média aritmética é: " + media);
+
+} else if (P === 2) {
+    // Soma dos valores
+    let soma = A + B + C;
+    alert("A soma dos valores é: " + soma);
+
+} else if (P === 3) {
+    // Verifica se B é par ou ímpar
+    if (B % 2 === 0) {
+        alert("B é par. Valor: " + B);
+    } else {
+        alert("B é ímpar. Valor: " + B);
+    }
+
+} else {
+    // Operação inválida
+    alert("Operação inválida.");
+}
