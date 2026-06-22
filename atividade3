@@ -1,0 +1,16 @@
+let idade = 25;
+let idadeMinima = 18;
+
+// Verifica se é maior de idade
+let maiorDeIdade = idade >= idadeMinima;
+
+console.log(maiorDeIdade); // true
+
+
+let senha = "1234";
+let confirmaSenha = "1234";
+
+// Verifica se as senhas são idênticas (mesmo valor e mesmo tipo)
+let senhasIguais = senha === confirmaSenha;
+
+console.log(senhasIguais); // true
