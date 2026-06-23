@@ -1,0 +1,9 @@
+let indicePoluicao = parseFloat(prompt("Digite o índice de poluição:"));
+
+if (indicePoluicao < 35) {
+    console.log("Classificação: Agradável");
+} else if (indicePoluicao <= 60) {
+    console.log("Classificação: Desagradável");
+} else {
+    console.log("Classificação: Perigoso");
+}
