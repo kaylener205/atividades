@@ -1,0 +1,25 @@
+const senhaCorreta = "1234";
+let senha;
+let tentativas = 0;
+const maxTentativas = 3;
+
+do {
+    senha = prompt("Digite sua senha:");
+    tentativas++;
+
+    if (senha === senhaCorreta) {
+        console.log("Bem-vindo! Acesso liberado.");
+        break;
+    } else {
+        let restantes = maxTentativas - tentativas;
+
+        if (restantes > 0) {
+            console.log(`Senha incorreta. Restam ${restantes} tentativa(s).`);
+        }
+    }
+
+} while (tentativas < maxTentativas);
+
+if (senha !== senhaCorreta) {
+    console.log("Acesso bloqueado. Número máximo de tentativas excedido.");
+}
