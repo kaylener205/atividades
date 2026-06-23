@@ -1,0 +1,21 @@
+let caractere = prompt("Digite uma opção:");
+
+switch (caractere.toLowerCase()) {
+    case "a":
+        console.log("Alteração");
+        break;
+    case "c":
+        console.log("Consulta");
+        break;
+    case "e":
+        console.log("Exclusão");
+        break;
+    case "i":
+        console.log("Inclusão");
+        break;
+    case "f":
+        console.log("Finalização");
+        break;
+    default:
+        console.log("Opção inválida");
+}
