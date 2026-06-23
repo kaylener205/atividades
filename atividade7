@@ -1,0 +1,18 @@
+let quantidade = parseInt(prompt("Digite a quantidade de produtos:"));
+
+let extraGrande = Math.floor(quantidade / 50);
+quantidade %= 50;
+
+let grande = Math.floor(quantidade / 20);
+quantidade %= 20;
+
+let media = Math.floor(quantidade / 5);
+quantidade %= 5;
+
+let pequena = quantidade;
+
+console.log("Caixas necessárias:");
+console.log("Extra-grande:", extraGrande);
+console.log("Grande:", grande);
+console.log("Média:", media);
+console.log("Pequena:", pequena);
