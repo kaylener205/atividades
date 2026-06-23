@@ -1,0 +1,9 @@
+Exemplo com entrada do usuário
+let autenticado = prompt("Usuário autenticado? (sim/não)") === "sim";
+let possuiPermissao = prompt("Possui permissão? (sim/não)") === "sim";
+
+if (autenticado && possuiPermissao) {
+    console.log("Acesso permitido.");
+} else {
+    console.log("Acesso negado.");
+}
